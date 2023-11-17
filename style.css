@@ -2,7 +2,7 @@
 
 .navbar {
   padding: 2rem;
-  background-color: #f5f6f7;
+  background-color: #F4F3EE;
 }
 
 .navbar-collapse {
@@ -21,23 +21,31 @@ section {
 
 h1 {
   font-size: 2.5rem;
-  font-family: 'Rubik Dirt', cursive;
+  font-family: "Rubik dirt",cursive;
 }
 
 .seccion-oscura {
-  color: white;
-  background-color: #1b1b32;
+  color: rgb(4, 4, 4);
+  background-color: #E0AFA0;
 }
 
 .seccion-clara {
-  color: black;
-  background-color: white;
+  color: rgb(0, 0, 0);
+  background-color: #F4F3EE;
 }
 
 .seccion-titulo {
   font-size: 2rem;
   padding: 15px 0;
   font-family: 'Rubik Dirt', cursive;
+  color: white;
+}
+
+.seccion-titulo1 {
+  font-size: 2rem;
+  padding: 15px 0;
+  font-family: 'Rubik Dirt', cursive;
+  color: black;
 }
 
 .seccion-descripcion {
@@ -47,20 +55,26 @@ h1 {
 
 .seccion-texto {
   font-size: 1.2rem;
+  color:white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .btn-info {
   font-size: 1.1rem;
   margin: 20px;
+  color: black;
+  background-color: #8A817C;
+  border: #463F3A;
 }
 
 .texto-negro {
-  color: black;
+  color: rgb(0, 0, 0);
 }
 
 .texto-blanco {
-  color: white;
+  color: rgb(255, 255, 255);
 }
+
 
 /* Seccion Hero */
 
@@ -114,14 +128,14 @@ h1 {
 }
 
 .experiencia .columna:hover {
-  color: white;
-  background-color: #1b1b32;
+  color: #F4F3EE;
+  background-color: #8A817C;
 }
 
 .experiencia i {
   font-size: 2.5rem;
-  color: #7ade30;
-  background-color: #0a0a23;
+  color: #BCB8B1;
+  background-color: #463F3A;
   padding: 8px 19px;
   border-radius: 50%;
 }
@@ -265,7 +279,7 @@ h1 {
 
 .contacto .rectangulo {
   margin-top: -5rem;
-  background-color: rgb(13, 110, 253);
+  background-color: #8A817C;
   border-radius: 10px;
   box-shadow: 0px 1px 4px 1px white;
 }
@@ -282,7 +296,7 @@ h1 {
 }
 
 .contacto button {
-  color: white;
+  color: rgb(255, 255, 255);
   font-weight: bold;
   background-color: transparent;
   border: 2px solid white;
@@ -308,7 +322,9 @@ h1 {
 }
 
 /* Pie de pagina (footer) */
-
+.footer-texto {
+  color: white;
+}
 footer {
   min-height: 500px;
 }
@@ -347,16 +363,16 @@ footer {
 
 .iconos-redes-sociales a:hover {
   background-color: white;
-  border: 2px solid rgb(13, 110, 253);
+  border: 2px solid #8A817C;
 }
 
 .iconos-redes-sociales a:hover i {
-  color: black;
+  color: #463F3A;
 }
 
 .derechos-de-autor {
   font-size: 15px;
-  color: #aeaeae;
+  color: #8A817C;
   padding: 20px;
 }
 
